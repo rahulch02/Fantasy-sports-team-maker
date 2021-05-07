@@ -1,6 +1,6 @@
 # Fantasy Sports Team Maker
 
-~~My first project/mini-project~~
+~~My first project/mini-project~~ :P
 
 - This C++ program will print all possible teams that can be made from given player data. Such that the sum of the team's player value is 100 and I've also put conditions for minimum and maximum batsmen/bowlers/all-rounders.
 It will also display captain and vice-captain for the teams. Captain: player with highest value, Vice-Captain: player with second-highest value
