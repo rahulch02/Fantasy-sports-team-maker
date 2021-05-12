@@ -116,7 +116,7 @@ void unique_combination(int l, float sum, float target_sum, vector<struct data_t
             for(int i=0; i<players_per_team; i++){
                 increase_pos(local[i]);
             }
-            // if(((bat_count >=1 && bat_count <=6) && (bowl_count>=2 && bowl_count<=6) && (all_count>=1 && all_count<=6))){
+            
             int different = 1;
             for(int j=0; i<(team_index); i++){
                 int flag = 0;
@@ -135,22 +135,7 @@ void unique_combination(int l, float sum, float target_sum, vector<struct data_t
                 // cout<<"Team with "<<bat_count<<" batmen, "<<bowl_count<<" bowlers and "<<all_count<<" all-rounders added\n";             //DEBUG PRINT
                 
                 team_index++;
-                //SHOW TEAMS IF THE CONDITION IS TRUE
-                /*
-                if(((bat_count >=4 && bat_count <=6) && (bowl_count>=3 && bowl_count<=6) && (all_count>=3 && all_count<=6))){
-                    // ++team_index;
-                    cout<<"Batsmen = "<<bat_count<<" Bowlers = "<<bowl_count<<" All Rounders = "<<all_count<<endl;;
-                    cout<<"{ ";
-                    for (int j = 0; j < players_per_team; j++){   
-                        if (j != 0)
-                        cout << " ";
-                        cout << all_teams[team_index][j].name<<"["<<all_teams[team_index][j].team_name<<"]";
-                        if (j != players_per_team - 1)
-                            cout << ", ";
-                    }
-                    cout << "}"<< endl;
-                }
-                */
+                
             }
             ++teams_formed;
             bat_count = 0;          //Reset counts for next team
