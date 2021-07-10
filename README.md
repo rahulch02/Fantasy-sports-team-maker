@@ -13,5 +13,5 @@ At this moment, console screen will be stuck showing All possible teams. Give it
 
 ##### I have more plans for this program but atm, I'm planning to learn more languages and libraries and come back wiser to improve the features of this program.
 
-Also, I know the code is messy and fucked up but gimme some slack this was ya boi's first miniproject :D
+Also, I know the code is messy and fucked up :).
 I might improve it idk lezz see.
