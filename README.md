@@ -13,9 +13,5 @@ At this moment, console screen will be stuck showing All possible teams. Give it
 
 ##### I have more plans for this program but atm, I'm planning to learn more languages and libraries and come back wiser to improve the features of this program.
 
-Some features that I plan to add: 
-* Sort the teams such that the team with highest median player value is at the top
-* After sorting, limit the ouput to 50-100 teams so this program can actually assist people in making teams.
-
 Also, I know the code is messy and fucked up but gimme some slack this was ya boi's first miniproject :D
 I might improve it idk lezz see.
